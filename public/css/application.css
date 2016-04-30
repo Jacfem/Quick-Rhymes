@@ -1,9 +1,56 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+body {
+  background-color: #FFFEEC;
+  font-family: 'Lato', sans-serif;
 }
-th {
-  text-align: left;
+
+
+h1, form, p{
+  text-align: center;
+}
+
+h1{
+  padding: 10px;
+  border-bottom: 3px solid #E96245;
+}
+
+p{
+  position: relative;
+  top: 100px;
+}
+
+a:hover{
+  color: #F17744;
+}
+
+a{
+  color: #1A3D2A;
+  text-decoration: none;
+}
+
+span{
+  color: #F17744;
+}
+
+#results{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button {
+    background-color: #F17744;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+input[type=text]{
+    background-color: white;
+    border-radius: 5px;
+    margin: 4px 2px;
+    margin-top: 10px;
 }
