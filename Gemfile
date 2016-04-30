@@ -1,5 +1,10 @@
-ruby '2.0.0'
+ruby '2.2.1'
 source 'https://rubygems.org'
+
+gem 'json'
+gem 'bcrypt'
+gem 'pry'
+gem 'httparty'
 
 # PostgreSQL driver
 gem 'pg'
